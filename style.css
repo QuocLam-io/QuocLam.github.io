@@ -1,4 +1,18 @@
 body {
+    /* display: flex; */
     margin: 0;
     padding: 0;
+    background: #007A78;
+}
+
+nav {
+    display: flex;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background: #FFC745;
+}
+
+footer {
+    background: white;
 }
