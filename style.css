@@ -8,7 +8,6 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    top: 0;
     height: 50px;
     width: 100%;
     background: #FFC745;
@@ -16,25 +15,65 @@ nav {
 
 .icon {
     display: flex;
+    padding: 5px;
     align-items: center;
-background: white;
-border: black 1px dotted;
-}
-
-.right-nav {
-width: 40%;
-background: white;
-border: black 1px dotted;
+    background: white;
+    border: black 1px dotted;
 }
 
 .nav-links {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 40%;
     background: blue;
-display: flex;
-justify-content: space-between;
-list-style: none;
+    border: dotted red 1px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 5px solid coral;
+}
+
+.card-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    border: dotted 3px black;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: double red 3px;
+    /* min-width: ; */
+    max-width: 300px;
+    /* min-height: ; */
+    max-height: 200px;
+    padding: 10px 10px;
+    margin: 20px;
 }
 
 footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
     display: flex;
+    justify-content: center;
     background: white;
+}
+
+li > a:link {
+    color: white;
 }
