@@ -5,7 +5,9 @@
 
 body {
     background: #000000;
-    color: white
+    color: white;
+    bottom: 0;
+
 }
 
 nav {
@@ -42,6 +44,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 header {
@@ -50,6 +53,7 @@ header {
     width: 100%;
     justify-content: center;
     border-bottom: 5px solid coral;
+    margin-top: 10px;
 }
 
 header h1 {
@@ -62,7 +66,7 @@ header a{
 }
 
 .social {
-    max-height: 50px;
+    max-height: 30px;
 }
 
 .card-container {
@@ -86,7 +90,7 @@ header a{
 }
 
 footer {
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     bottom: 0;
     display: flex;
@@ -101,13 +105,37 @@ li > a:link {
     background-image: url("https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60");
     background-size: cover;
 }
+.project-2 {
+    background-image: url("https://images.unsplash.com/photo-1488188840666-e2308741a62f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80");
+    background-size: cover;
+}
+.project-1 {
+    background-image: url("https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60");
+    background-size: cover;
+}
+.project-1 {
+    background-image: url("https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60");
+    background-size: cover;
+}
+.project-1 {
+    background-image: url("https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60");
+    background-size: cover;
+}
+.project-1 {
+    background-image: url("https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60");
+    background-size: cover;
+}
+.project-1 {
+    background-image: url("https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60");
+    background-size: cover;
+}
 
 .card:hover{
     opacity: .7;
 }
 
-@media screen and (max-width: 512px){
+@media screen and (max-width: 800px){
     .nav-links {
-        width: 85%;
+        width: 60%;
     }
 }
