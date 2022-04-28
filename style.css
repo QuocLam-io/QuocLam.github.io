@@ -1,7 +1,9 @@
-body {
-    /* display: flex; */
+*{
     margin: 0;
     padding: 0;
+}
+
+body {
     background: #007A78;
 }
 
@@ -40,9 +42,23 @@ main {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
     border-bottom: 5px solid coral;
+}
+
+header h1 {
+    text-align: center;
+    width: 100%;
+}
+
+header a{
+    margin: 10px;
+}
+
+.social {
+    max-height: 50px;
 }
 
 .card-container {
