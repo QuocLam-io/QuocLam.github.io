@@ -4,7 +4,8 @@
 }
 
 body {
-    background: #007A78;
+    background: #000000;
+    color: white
 }
 
 nav {
@@ -13,13 +14,17 @@ nav {
     height: 50px;
     width: 100%;
     background: #FFC745;
+    /* padding: 4px; */
 }
 
 .icon {
     display: flex;
-    padding: 5px;
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
     align-items: center;
-    background: white;
+    background: #111111;
     border: black 1px dotted;
 }
 
@@ -30,8 +35,7 @@ nav {
     align-items: center;
     list-style: none;
     width: 40%;
-    background: blue;
-    border: dotted red 1px;
+    border: dotted white 1px;
 }
 
 main {
@@ -72,17 +76,17 @@ header a{
 }
 
 .card {
-    border: double red 3px;
-    /* min-width: ; */
+    border: double white 3px;
+    min-width: 200px;
     max-width: 300px;
-    /* min-height: ; */
     max-height: 200px;
+    min-height: 200px;
     padding: 10px 10px;
     margin: 20px;
 }
 
 footer {
-    position: absolute;
+    /* position: fixed; */
     width: 100%;
     bottom: 0;
     display: flex;
@@ -92,4 +96,18 @@ footer {
 
 li > a:link {
     color: white;
+}
+.project-1 {
+    background-image: url("https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60");
+    background-size: cover;
+}
+
+.card:hover{
+    opacity: .7;
+}
+
+@media screen and (max-width: 512px){
+    .nav-links {
+        width: 85%;
+    }
 }
