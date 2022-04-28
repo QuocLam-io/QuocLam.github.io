@@ -7,12 +7,34 @@ body {
 
 nav {
     display: flex;
+    justify-content: space-between;
     top: 0;
     height: 50px;
     width: 100%;
     background: #FFC745;
 }
 
+.icon {
+    display: flex;
+    align-items: center;
+background: white;
+border: black 1px dotted;
+}
+
+.right-nav {
+width: 40%;
+background: white;
+border: black 1px dotted;
+}
+
+.nav-links {
+    background: blue;
+display: flex;
+justify-content: space-between;
+list-style: none;
+}
+
 footer {
+    display: flex;
     background: white;
 }
